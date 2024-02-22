@@ -2,11 +2,11 @@ import { createModularAccountAlchemyClient } from "@alchemy/aa-alchemy";
 import {
   Address,
   LocalAccountSigner,
-  polygonMumbai,
+  sepolia,
   type Hex,
 } from "@alchemy/aa-core";
 
-const chain = polygonMumbai;
+const chain = sepolia;
 
 // The private key of your EOA that will be the signer to connect with the Modular Account
 const PRIVATE_KEY = process.env.PRIVATE_KEY as Hex;
