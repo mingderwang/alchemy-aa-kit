@@ -1,7 +1,7 @@
 {
   "name": "alchemy-aa-kit",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
   "license": "MIT",
   "type": "module",
   "scripts": {
@@ -15,5 +15,8 @@
     "@alchemy/aa-alchemy": "^3.0.1",
     "@alchemy/aa-core": "^3.0.1",
     "@alchemy/aa-signers": "^3.0.1"
+  },
+  "engines": {
+    "node": "^v18.16.0"
   }
 }

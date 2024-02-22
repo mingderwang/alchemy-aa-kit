@@ -1,4 +1,14 @@
-# result
+# To test Alchemy's Account Abstract (AA) kit
+
+## install packages
+
+* use node v18.16.0
+
+```shell
+npm i
+```
+
+## result
 
 ```shell
 $ yarn dev
