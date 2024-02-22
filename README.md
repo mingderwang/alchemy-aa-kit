@@ -10,6 +10,8 @@ npm i
 
 ## result
 
+* on Polygon Mumbai network
+
 ```shell
 $ yarn dev
 yarn run v1.22.21
