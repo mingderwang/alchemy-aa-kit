@@ -1,11 +1,11 @@
 {
   "name": "alchemy-aa-kit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.ts",
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "dev": "npx tsx index.ts"
+    "dev": "bun --watch run index.ts"
   },
   "devDependencies": {
     "typescript": "^5.3.3"

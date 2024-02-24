@@ -1,6 +1,10 @@
-import { smartAccountClient } from "./smartAccountClient";
+import { lightAccountClient, smartAccountClient } from "./smartAccountClient";
 
 // get on-chain account owner address
-const accountAddress = smartAccountClient.getAddress();
+const smartAccountAddress = smartAccountClient.getAddress();
+const lightAccountAddress = lightAccountClient.getAddress();
 
-console.log(accountAddress);
+console.log(smartAccountClient);
+console.log(`smartAccountClint: ${smartAccountAddress}`);
+console.log(lightAccountClient);
+console.log(`lightAccountClint: ${lightAccountAddress}`);
